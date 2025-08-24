@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+    <div class="boxCon">
+
+        <input type="text" id="resultCalcu" value="0" readonly>
+
+        <div class="basicCalcu">
+            <div class="numBtns">
+                <div class="numBtnOne">
+                    <button id="sevenBtn" onclick="appendToResult('7')">7</button>
+                    <button id="eightBtn" onclick="appendToResult('8')">8</button>
+                    <button id="nineBtn" onclick="appendToResult('9')">9</button>
+                </div>  
+
+                <div class="numBtnTwo">
+                    <button id="fourBtn" onclick="appendToResult('4')">4</button>
+                    <button id="fiveBtn" onclick="appendToResult('5')">5</button>
+                    <button id="sixBtn" onclick="appendToResult('6')">6</button>
+                </div>   
+
+                <div class="numBtnThree"> 
+                    <button id="oneBtn" onclick="appendToResult('1')">1</button>
+                    <button id="twoBtn" onclick="appendToResult('2')">2</button>
+                    <button id="threeBtn" onclick="appendToResult('3')">3</button>
+                </div>
+            </div>
+
+            <div class="operatorBtn">
+                <button id="addBtn" onclick="appendToResult('+')">+</button>
+                <button id="subBtn" onclick="appendToResult('-')">-</button>
+                <button id="mulBtn" onclick="appendToResult('*')">*</button>
+                <button id="divBtn" onclick="appendToResult('/')">/</button>
+            </div>   
+
+            <div class="remainBtn">
+                <button id="clearBtn" onclick="clearResultCalcu()">C</button>
+                <button id="zeroBtn" onclick="appendToResult('0')">0</button>
+                <button id="equalBtn" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="calcu.js"></script>
+</body>
+</html>

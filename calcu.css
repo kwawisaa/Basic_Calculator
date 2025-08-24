@@ -1,0 +1,98 @@
+body{
+    background-color: #f5f5f5; 
+}
+
+.boxCon{
+    height: 430px;
+    width: 310px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #f5f5f5;  
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+}
+
+input{
+    height: 48px;
+    width: 260px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 2.5em;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto 40px auto;
+    display: block;
+    box-shadow: inset 5px 5px 10px #bebebe,
+                inset -5px -5px 10px #ffffff;  
+}
+.basicCalcu button{
+    width: 40px;
+    height: 40px;
+    background-color:#ffffff;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 5px 5px 10px #bebebe,
+                -5px -5px 10px #ffffff;
+    font-size: 1.5em;   
+    font-family: monospace;
+    font-weight: bold;
+     
+}
+
+.basicCalcu button:active{
+    box-shadow: inset 5px 5px 10px #bebebe,
+                inset -5px -5px 10px #ffffff;  
+}
+
+.numBtns{
+    margin: 0 auto 0 -70px;
+    text-align: center;
+}
+
+.numBtns:button{
+    margin: auto;
+    text-align: center;
+}
+
+.numBtnOne{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.numBtnTwo{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.numBtnThree{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.operatorBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 240px;
+    margin-top: -240px;
+}
+
+.remainBtn{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-right: 70px;
+    margin-top: -40px;
+}
+ 
+
